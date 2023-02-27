@@ -7,6 +7,7 @@ CSS GENERAL
     --hero_about_color: #1abc9c;
     --white_color: #ffffff;
     --footer_top: #3a546d;
+    --start_bootstrap: #20a590;
 }
 
 body {
@@ -16,6 +17,14 @@ body {
 /*****************************************************
 CSS UTILITIES
 *****************************************************/
+
+.p_35 {
+    padding: 35px;
+}
+
+.p_50 {
+    padding: 50px;
+}
 
 .p_b_25 {
     padding-bottom: 25px;
@@ -33,8 +42,16 @@ CSS UTILITIES
     padding-bottom: 70px;
 }
 
+.p_l_20 {
+    padding-left: 20px;
+}
+
 .p_l_100 {
     padding-left: 100px;
+}
+
+.p_t_10 {
+    padding-top: 10px;
 }
 
 .p_t_25 {
@@ -53,6 +70,14 @@ CSS UTILITIES
     padding-top: 45px;
 }
 
+.p_t_60 {
+    padding-top: 60px;
+}
+
+.font_35 {
+    font-size: 35px;
+}
+
 /*****************************************************
 CSS SITE "Bootstrap Freelancer"
 *****************************************************/
@@ -63,7 +88,6 @@ HEADER
 
 header {
     background-color: var(--nav_footer-b_color);
-    padding: 35px;
 }
 
 .flex_nav {
@@ -104,7 +128,6 @@ MAIN
 
 #portfolio h2 {
     color: var(--nav_footer-b_color);
-    font-size: 35px;
 }
 
 #portfolio .fa-star {
@@ -124,10 +147,6 @@ MAIN
     background-color: var(--hero_about_color);
 }
 
-#about h2 {
-    font-size: 35px;
-}
-
 #about .about_text {
     max-width: 83%;
 }
@@ -137,5 +156,22 @@ MAIN
     padding: 10px 18px;
 }
 
+/*****************************************************
+#CONTACT
+*****************************************************/
 
+/*****************************************************
+FOOTER
+*****************************************************/
 
+.footer_top {
+    background-color: var(--footer_top);
+}
+
+#start_bootstrap {
+    color: var(--hero_about_color);
+}
+
+.footer_bottom {
+    background-color: var(--nav_footer-b_color);
+}
