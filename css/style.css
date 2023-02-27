@@ -10,6 +10,26 @@ CSS GENERAL
 }
 
 /*****************************************************
+CSS UTILITIES
+*****************************************************/
+
+.p_b_40 {
+    padding-bottom: 40px;
+}
+
+.p_t_25 {
+    padding-top: 25px;
+}
+
+.p_t_30 {
+    padding-top: 30px;
+}
+
+.p_t_40 {
+    padding-top: 40px;
+}
+
+/*****************************************************
 CSS SITE "Bootstrap Freelancer"
 *****************************************************/
 
@@ -39,4 +59,17 @@ MAIN
 
 #hero {
     background-color: var(--hero_about_color);
+}
+
+#hero img {
+    width: 350px;
+    height: 350px;
+}
+
+#hero h1 {
+    font-size: 40px;
+}
+
+.fa-star {
+    font-size: 40px;
 }
