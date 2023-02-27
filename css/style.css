@@ -17,6 +17,26 @@ CSS SITE "Bootstrap Freelancer"
 HEADER
 *****************************************************/
 
-nav {
+header {
     background-color: var(--nav_footer-b_color);
+    padding: 35px;
+}
+
+.flex_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*****************************************************
+MAIN
+*****************************************************/
+
+/*****************************************************
+#HERO
+*****************************************************/
+
+#hero {
+    background-color: var(--hero_about_color);
 }
