@@ -9,9 +9,21 @@ CSS GENERAL
     --footer_top: #3a546d;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /*****************************************************
 CSS UTILITIES
 *****************************************************/
+
+.p_b_25 {
+    padding-bottom: 25px;
+}
+
+.p_b_35 {
+    padding-bottom: 35px;
+}
 
 .p_b_40 {
     padding-bottom: 40px;
@@ -27,6 +39,10 @@ CSS UTILITIES
 
 .p_t_40 {
     padding-top: 40px;
+}
+
+.p_t_45 {
+    padding-top: 45px;
 }
 
 /*****************************************************
@@ -67,9 +83,27 @@ MAIN
 }
 
 #hero h1 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .fa-star {
     font-size: 40px;
+}
+
+/*****************************************************
+#PORTFOLIO
+*****************************************************/
+
+#portfolio h2 {
+    color: var(--nav_footer-b_color);
+    font-size: 35px;
+}
+
+#portfolio .fa-star {
+    color: var(--nav_footer-b_color);
+}
+
+#portfolio img {
+    width: 100%;
+    border-radius: 15px;
 }
