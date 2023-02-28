@@ -90,6 +90,12 @@ HEADER
     background-color: var(--nav_footer-b_color);
 }
 
+header .dotted:hover {
+    border: 1px dotted var(--white_color);
+}
+
+
+
 /*****************************************************
 MAIN
 *****************************************************/
@@ -135,7 +141,7 @@ MAIN
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    color: var(--white_color);
+    color: var(--start_bootstrap);
 }
 
 #portfolio .hover_img:hover:after {
