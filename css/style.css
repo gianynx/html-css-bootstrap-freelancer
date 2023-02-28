@@ -46,10 +46,6 @@ CSS UTILITIES
     padding-left: 20px;
 }
 
-.p_l_100 {
-    padding-left: 100px;
-}
-
 .p_t_10 {
     padding-top: 10px;
 }
@@ -155,12 +151,16 @@ MAIN
 *****************************************************/
 
 #about .about_text {
-    max-width: 83%;
+    max-width: 90%;
 }
 
 #about button {
     background-color: var(--hero_about_color);
     padding: 10px 18px;
+}
+
+#about button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /*****************************************************
