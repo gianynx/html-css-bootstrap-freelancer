@@ -127,6 +127,25 @@ MAIN
     border-radius: 15px;
 }
 
+#portfolio .hover_img:after {
+    content: '+';
+    font-size: 15rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: var(--white_color);
+}
+
+#portfolio .hover_img:hover:after {
+    opacity: 1;
+}
+
+#portfolio .hover_img:hover {
+    padding: 10px;
+}
+
 /*****************************************************
 #ABOUT
 *****************************************************/
