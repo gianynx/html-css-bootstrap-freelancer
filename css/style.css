@@ -118,11 +118,7 @@ MAIN
 #PORTFOLIO
 *****************************************************/
 
-#portfolio h2 {
-    color: var(--nav_footer-b_color);
-}
-
-#portfolio .fa-star {
+#portfolio h2, #portfolio .fa-star {
     color: var(--nav_footer-b_color);
 }
 
