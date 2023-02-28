@@ -86,7 +86,7 @@ CSS SITE "Bootstrap Freelancer"
 HEADER
 *****************************************************/
 
-header {
+.nav_footer-b {
     background-color: var(--nav_footer-b_color);
 }
 
@@ -98,7 +98,7 @@ MAIN
 #HERO
 *****************************************************/
 
-#hero {
+.hero_about {
     background-color: var(--hero_about_color);
 }
 
@@ -135,10 +135,6 @@ MAIN
 #ABOUT
 *****************************************************/
 
-#about {
-    background-color: var(--hero_about_color);
-}
-
 #about .about_text {
     max-width: 83%;
 }
@@ -162,8 +158,4 @@ FOOTER
 
 #start_bootstrap {
     color: var(--hero_about_color);
-}
-
-.footer_bottom {
-    background-color: var(--nav_footer-b_color);
 }
